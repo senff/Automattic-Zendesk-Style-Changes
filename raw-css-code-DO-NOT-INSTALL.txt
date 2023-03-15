@@ -1,11 +1,3 @@
-===================================================================
-===================================================================
-||   DO NOT INSTALL THIS FILE! It is only meant for reference!   ||
-===================================================================
-===================================================================
-
-
-
 .zendesk-chat div[data-test-id="omni-log-container"] {
     background:#e0e0e0
 }
@@ -132,96 +124,82 @@ span[data-test-id="omni-log-item-via"]{
 
 /* --- EDITOR BOX --- */
 
- .zendesk-chat #editor-view {
-    border: solid 3px #78A300;
-    box-shadow: 0 0 10px #666;
-}
-
-.zendesk-chat #editor-view > div:last-child > div > div > div {
-    border-top: none !important;
-}
-
-.zendesk-chat #editor-view > div > div > div {
-    border: none;
-    outline: none !important;
-}
-
- .zendesk-chat #editor-view .ck-editor__editable,
- .zendesk-chat #editor-view .ck-editor__editable li,
- .zendesk-chat #editor-view .ck-editor__editable p,
- .zendesk-chat article .zd-comment,
- .zendesk-chat article .zd-comment li,
- .zendesk-chat article .zd-comment p {
-    font-size:16px;
-    line-height:22px;
-}
-
- .zendesk-chat #editor-view .ck-editor__editable ul,
- .zendesk-chat article .zd-comment ul {
-    margin-bottom:20px;
-}
-
- .zendesk-chat #editor-view .ck-editor__editable li,
- .zendesk-chat article .zd-comment li {
-    margin-bottom:0;
-}
-
- .zendesk-chat #editor-view .ck-editor__editable code,
- .zendesk-chat #editor-view .ck-editor__editable pre {
-    border:solid 1px #c0c0c0;
-    font-size:15px;
-    padding:3px;
-    background:#ffffff 
-}
-
- .zendesk-chat #editor-view .ck-editor__editable pre code {
-    border: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #editor-view {
+     .zendesk-chat #editor-view {
         border: solid 3px #78A300;
-        background: #e0e0e0;
         box-shadow: 0 0 10px #666;
     }
 
-    #editor-view > div:last-child > div > div > div {
+    .zendesk-chat #editor-view > div:last-child > div > div > div {
         border-top: none !important;
     }
 
-    #editor-view > div > div > div {
+    .zendesk-chat #editor-view > div > div > div {
         border: none;
         outline: none !important;
     }
 
-    .zendesk-editor--rich-text-container {
-        background: #ececec;
-        padding: 0;
+     .zendesk-chat #editor-view .ck-editor__editable,
+     .zendesk-chat #editor-view .ck-editor__editable li,
+     .zendesk-chat #editor-view .ck-editor__editable p,
+     .zendesk-chat article .zd-comment,
+     .zendesk-chat article .zd-comment li,
+     .zendesk-chat article .zd-comment p {
+        font-size:16px;
+        line-height:22px;
     }
 
-    .zendesk-editor--rich-text-container .ck-editor__editable {
-            padding-top: 10px;
-            padding-bottom: 20px;
+     .zendesk-chat #editor-view .ck-editor__editable ul,
+     .zendesk-chat article .zd-comment ul {
+        margin-bottom:20px;
     }
 
-    .zendesk-editor--rich-text-container div[aria-label="Public reply composer"] {
-        background: transparent;
+     .zendesk-chat #editor-view .ck-editor__editable li,
+     .zendesk-chat article .zd-comment li {
+        margin-bottom:0;
     }
 
-    .zendesk-editor--rich-text-container div[aria-label="Internal note composer"] {
-        background: #FFFFCC;
-        min-height: 100%;
+     .zendesk-chat #editor-view .ck-editor__editable code,
+     .zendesk-chat #editor-view .ck-editor__editable pre {
+        border:solid 1px #c0c0c0;
+        font-size:15px;
+        padding:3px;
+        background:#ffffff 
     }
 
+     .zendesk-chat #editor-view .ck-editor__editable pre code {
+        border: 0;
+    }
+
+     .zendesk-chat #editor-view {
+            border: solid 3px #78A300;
+            background: #e0e0e0;
+            box-shadow: 0 0 10px #666;
+        }
+
+     .zendesk-chat #editor-view > div:last-child > div > div > div {
+            border-top: none !important;
+        }
+
+     .zendesk-chat #editor-view > div > div > div {
+            border: none;
+            outline: none !important;
+        }
+
+     .zendesk-chat .zendesk-editor--rich-text-container {
+            background: #ececec;
+            padding: 0;
+        }
+
+     .zendesk-chat .zendesk-editor--rich-text-container .ck-editor__editable {
+                padding-top: 10px;
+                padding-bottom: 20px;
+        }
+
+     .zendesk-chat .zendesk-editor--rich-text-container div[aria-label="Public reply composer"] {
+            background: transparent;
+        }
+
+     .zendesk-chat .zendesk-editor--rich-text-container div[aria-label="Internal note composer"] {
+            background: #FFFFCC;
+            min-height: 100%;
+        }
