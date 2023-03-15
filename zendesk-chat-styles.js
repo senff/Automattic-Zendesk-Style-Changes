@@ -4,8 +4,6 @@
 // @version      0.9.2
 // @description  Makes Zendesk chat look a bit more...like HappyChat?!
 // @author       Senff
-// @downloadURL  https://github.com/Automattic/support-helper-tools/raw/main/zendesk-enhancements/zendesk-chat-messages/zendesk-chat-messages.user.js
-// @updateURL    https://github.com/Automattic/support-helper-tools/raw/main/zendesk-enhancements/zendesk-chat-messages/zendesk-chat-messages.user.js
 // @match        https://*.zendesk.com/agent/*
 // @grant        none
 // ==/UserScript==
