@@ -1,4 +1,9 @@
-DO NOT INSTALL THIS FILE! It is only meant for reference!
+===================================================================
+===================================================================
+||   DO NOT INSTALL THIS FILE! It is only meant for reference!   ||
+===================================================================
+===================================================================
+
 
 
 .zendesk-chat div[data-test-id="omni-log-container"] {
@@ -48,6 +53,42 @@ span[data-test-id="omni-log-item-via"]{
     text-decoration: underline;
 }
 
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-USER {
+    border-bottom-left-radius: 0;
+}
+
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE {
+    margin-left:calc(20% - 20px);
+    background-color:#14ACDD;
+    color: #ffffff;    
+    border-bottom-right-radius: 0;
+}
+
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE-with-note {
+    background: #FFFFCC;
+    margin-left:calc(20% - 20px);   
+    padding-bottom: 0;
+}
+
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE-with-note div[data-test-id="omni-log-item-message"] div,
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE-with-note div[data-test-id="omni-log-item-message"] div div {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    -moz-transform: rotate(0);
+}
+
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE-with-note div[data-test-id="omni-log-item-message"] > div > div {
+    width: auto;
+    margin: 0;
+}
+
+.zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE-with-note .zendesk-note::before {
+    display: none;
+}
+
 .zendesk-chat div article[data-test-id="omni-log-comment-item"].message-BOT {
     margin-left:calc(20% - 20px);
     border: dashed 1px #000000;
@@ -68,23 +109,12 @@ span[data-test-id="omni-log-item-via"]{
             bottom: 0;
         }
 
-        .zendesk-chat div article[data-test-id="omni-log-comment-item"].message-USER {
-            border-bottom-left-radius: 0;
-        }
-
         .zendesk-chat div article[data-test-id="omni-log-comment-item"].message-USER::after {
             right: auto;
             left: -8px;    
             border-bottom: 8px solid #ffffff;
             border-left: 8px solid transparent;
             border-right: none;
-        }
-
-        .zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE {
-            margin-left:calc(20% - 20px);
-            background-color:#14ACDD;
-            color: #ffffff;    
-            border-bottom-right-radius: 0;
         }
 
         .zendesk-chat div article[data-test-id="omni-log-comment-item"].message-HE::after {
@@ -147,3 +177,51 @@ span[data-test-id="omni-log-item-via"]{
  .zendesk-chat #editor-view .ck-editor__editable pre code {
     border: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #editor-view {
+        border: solid 3px #78A300;
+        background: #e0e0e0;
+        box-shadow: 0 0 10px #666;
+    }
+
+    #editor-view > div:last-child > div > div > div {
+        border-top: none !important;
+    }
+
+    #editor-view > div > div > div {
+        border: none;
+        outline: none !important;
+    }
+
+    .zendesk-editor--rich-text-container {
+        background: #ececec;
+        padding: 0;
+    }
+
+    .zendesk-editor--rich-text-container .ck-editor__editable {
+            padding-top: 10px;
+            padding-bottom: 20px;
+    }
+
+    .zendesk-editor--rich-text-container div[aria-label="Public reply composer"] {
+        background: transparent;
+    }
+
+    .zendesk-editor--rich-text-container div[aria-label="Internal note composer"] {
+        background: #FFFFCC;
+        min-height: 100%;
+    }
+
