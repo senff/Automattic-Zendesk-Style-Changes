@@ -97,7 +97,8 @@
 
         div article[data-test-id="omni-log-comment-item"].chat-HE span[data-test-id="omni-log-item-via"],
         div article[data-test-id="omni-log-comment-item"].chat-HE time,
-        div article[data-test-id="omni-log-comment-item"].chat-HE button svg {
+        div article[data-test-id="omni-log-comment-item"].chat-HE button svg,
+        div article[data-test-id="omni-log-comment-item"].chat-HEs vg[data-test-id=convo-log-item-read-indicator] {
             color: #ffffff;
         }
 
@@ -220,7 +221,7 @@
     }
 
 
-/* --- Move toolbar in editor to the top ---- */
+/* --- MOVE TOOLBAR IN EDITOR TO TOP ---- */
 
     #editor-view div[data-test-id="ticket-rich-text-editor"] {
         order: 5;
@@ -242,7 +243,8 @@
         border: dashed 1px #999999;
     }
 
-/* --- Note copy styles override --- */
+/* --- COPY NOTE STYLES OVERRIDE --- */
+
 .zendesk-note {
     margin:0;
     width:auto;
