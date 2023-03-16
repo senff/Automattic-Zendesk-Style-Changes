@@ -241,3 +241,15 @@
         padding: 0;
         border: dashed 1px #999999;
     }
+
+
+.zendesk-note {
+    margin:0;
+    width:auto;
+    -moz-box-shadow:0;
+    -webkit-box-shadow:0;
+    box-shadow:0;
+    -webkit-transform:rotate(0);
+    -o-transform:rotate(0);
+    -moz-transform:rotate(0);
+}
