@@ -4,7 +4,7 @@
 // @version      0.9.5
 // @description  Makes Zendesk chat look a bit more...like HappyChat?!
 // @author       Senff
-// @match        https://*.zendesk.com/agent/*
+// @match        https://woothemes.zendesk.com/agent/*
 // @grant        none
 // ==/UserScript==
 
