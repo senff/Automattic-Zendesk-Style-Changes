@@ -242,7 +242,7 @@
         border: dashed 1px #999999;
     }
 
-
+/* --- Note copy styles override --- */
 .zendesk-note {
     margin:0;
     width:auto;
